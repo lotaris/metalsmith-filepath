@@ -44,3 +44,8 @@ The following options can be provided:
    slash (`/`)
  - `permalinks` (*boolean*) - Defines whether the file name should be trimmed
    off the URL, resulting in the path to the folder.
+
+
+## License
+
+MIT, see [LICENSE](LICENSE).

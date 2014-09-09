@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": { },
   "devDependencies": {
-    "metalsmith": "0.x",
+    "metalsmith": "0.x"
   }
 }
