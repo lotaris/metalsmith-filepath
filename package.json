@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-filepath",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metalsmith plugin for making a page's file path available in the metadata.",
   "readmeFilename": "README.md",
   "homepage": "https://github.com/lotaris/metalsmith-filepath",
