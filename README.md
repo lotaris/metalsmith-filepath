@@ -1,20 +1,20 @@
-# metalsmith-links
+# metalsmith-filepath
 
 This is a plugin for [Metalsmith](http://metalsmith.io/) that adds a `link`
-property to each page.
+property to each page that contains the file path of the page.
 
 ## Usage
 
 If no options are supplied, the plugin normalizes the file location value of 
 the file tree and copies it into the `link` property. For options, see below.
 
-If using the CLI for Metalsmith, metalsmith-links can be used like any other
+If using the CLI for Metalsmith, metalsmith-filepath can be used like any other
 plugin by including it in `metalsmith.json`. For example:
 
 ```json
 {
   "plugins": {
-    "metalsmith-links": {
+    "metalsmith-filepath": {
       "absolute": false,
       "permalinks": false
     }
@@ -22,14 +22,14 @@ plugin by including it in `metalsmith.json`. For example:
 }
 ```
 
-For Metalscript's JavaScript API, metalsmith-links can be used like any 
+For Metalscript's JavaScript API, metalsmith-filepath can be used like any 
 other plugin by attaching it to the function invocation chain on the 
 Metalscript object. For example:
 
 ```js
-var links = require('metalsmith-links');
+var filepath = require('metalsmith-filepath');
 require('metalsmith')(__dirname)
-  .use(links({
+  .use(filepath({
     absolute: true,
     permalinks: true
   })
